@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ranjanasalian/my-portfolio-website/static/css/main.c0d5e4e9.css",
+    "main.js": "/ranjanasalian/my-portfolio-website/static/js/main.60cca866.js",
+    "static/js/453.978c7d90.chunk.js": "/ranjanasalian/my-portfolio-website/static/js/453.978c7d90.chunk.js",
+    "static/media/mypicture.jpg": "/ranjanasalian/my-portfolio-website/static/media/mypicture.5eace439e9c9c8f24a67.jpg",
+    "index.html": "/ranjanasalian/my-portfolio-website/index.html",
+    "main.c0d5e4e9.css.map": "/ranjanasalian/my-portfolio-website/static/css/main.c0d5e4e9.css.map",
+    "main.60cca866.js.map": "/ranjanasalian/my-portfolio-website/static/js/main.60cca866.js.map",
+    "453.978c7d90.chunk.js.map": "/ranjanasalian/my-portfolio-website/static/js/453.978c7d90.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0d5e4e9.css",
+    "static/js/main.60cca866.js"
+  ]
+}
