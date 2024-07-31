@@ -1,0 +1,122 @@
+:root {
+    --header-height: 60px;
+    --first-color: hsl(28, 88%, 62%);
+    --title-color: hsl(0, 0%, 95%);
+    --text-color: hsl(0, 0%, 75%);
+    --body-color: hsl(0, 0%, 6%);
+    --body-font: "Noto Sans KR", sans-serif;
+    --second-font: "Noto Sans KR", sans-serif;
+    --h2-font-size: 20px;
+    --small-font-size: 0.813rem;
+    --font-semi-bold: 600;
+    --z-tooltip: 10;
+    --z-fixed: 1000;
+  }
+  
+   .header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: var(--z-fixed);
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 100px;
+    margin: 0 1rem;
+    z-index: var(--z-fixed);
+    
+  }
+  
+ .nav__logo {
+    color: var(--title-color);
+    transition: color 0.4s;
+    font-size: 20px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 400;
+  }
+  
+   .nav__toggle,
+  .nav__close {
+    font-size: 1.5rem;
+    color: var(--title-color);
+    cursor: pointer;
+  }
+  
+.nav__list {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2.5rem;
+    align-items: center;
+  }
+  
+   .nav__link {
+    color: var(--title-color);
+    font-weight: 200;
+    transition: color 0.4s;
+    font-size: 15px;
+    font-family: "Noto Sans KR", sans-serif;
+  }
+  
+  .nav__link:hover {
+    color: var(--first-color);
+  }
+  
+   .nav__close {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+  }
+  
+  .show-menu {
+    right: 0;
+  }
+ 
+  @media screen and (max-width: 1150px) {
+    .nav__menu {
+      position: fixed;
+      top: 0;
+      right: -100%;
+      background-color: hsla(0, 0%, 6%, 0.2);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      width: 80%;
+      height: 100%;
+      padding: 6rem 3rem 0;
+      transition: right 0.4s;
+      flex-direction: column;
+    }
+
+  
+     .nav__list {
+      flex-direction: column;
+      row-gap: 2rem;
+    }
+  
+    .show-menu {
+      right: 0;
+    }
+  }
+  
+  @media screen and (min-width: 1150px) {
+    .nav {
+      height: calc(var(--header-height) + 1rem);
+    }
+  
+   .nav__toggle,
+    .nav__close {
+      display: none;
+    }
+  
+     .nav__list {
+      flex-direction: row;
+      column-gap: 2.5rem;
+    }
+  }
+   

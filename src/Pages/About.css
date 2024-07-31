@@ -1,0 +1,96 @@
+.resume-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:black;
+}
+  
+.resume-header {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+  
+.resume-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+}
+  
+.resume-section {
+    margin-bottom: 20px;
+}
+  
+.section-title {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 50px;
+}
+  
+.work-item {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 200px;
+    margin-bottom: 20px;
+}
+  
+.work-title {
+    display: flex;
+    flex-direction: column;
+}
+  
+.work-title a {
+    color: var(--primary-color);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+  
+.work-title a:hover {
+    text-decoration: underline;
+}
+  
+.work-title p {
+    margin: 5px 0 0 0;
+}
+  
+.work-details {
+    display: flex;
+    flex-direction: column;
+}
+  
+.responsibilities-title {
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 10px;
+}
+  
+.responsibilities {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 0.9rem;
+}
+  
+.education-item {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    gap: 100px;
+    margin-bottom: 20px;
+    
+}
+  
+.education-degree {
+    font-size: 1.1rem;
+    color: var(--primary-color);
+}
+  
+hr {
+    border: 0;
+    height: 1px;
+    background: white;
+    margin: 20px 0;
+    margin-top: 50px;
+    
+}
+
+  
